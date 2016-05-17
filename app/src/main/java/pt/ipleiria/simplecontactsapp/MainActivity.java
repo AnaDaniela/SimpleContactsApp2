@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
         ListView ListView = (ListView) findViewById(R.id.listView_contacts);
         listView.setAdapter(adapter);
     }
-
     public void onClick_search(View view) {
         // ir buscar as referências para a editText, o spinner e a listView
         EditText et = (EditText) findViewById(R.id.editText_search);
